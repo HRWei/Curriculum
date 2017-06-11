@@ -50,7 +50,7 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 import javax.swing.ImageIcon;
 
-public class Cheif {
+public class Chief {
 
 	private JFrame frame;
 	private CardLayout card;
@@ -80,7 +80,7 @@ public class Cheif {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Cheif window = new Cheif();
+					Chief window = new Chief();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -92,7 +92,7 @@ public class Cheif {
 	/**
 	 * Create the application.
 	 */
-	public Cheif() {
+	public Chief() {
 		initialize();
 	}
 
@@ -699,7 +699,7 @@ public class Cheif {
 		}
 		
 		
-		private List<Cheif.DataPanel.GPA> gpaList = new ArrayList();  
+		private List<Chief.DataPanel.GPA> gpaList = new ArrayList();  
 		
 		{
 			for(int i=0; i<semesters.size(); i++) {
