@@ -36,6 +36,7 @@ public class TaskInfo extends JDialog {
 	private JTextPane txt_intro;
 	private JTextField txt_time;
 	
+	private Task task;
 	
 	/**
 	 * Create the dialog.
